@@ -1,0 +1,10 @@
+﻿- type: entity
+  id: StrongholdTurretSpawner
+  name: steel floor
+  description: You shouldn't see this...
+  components:
+    - type: Sprite
+      sprite: OuterRim/turret.rsi
+      layers:
+        - state: "turret-head"
+        - state: "cover-floor-tile"

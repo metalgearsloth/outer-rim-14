@@ -61,3 +61,14 @@
 - type: tileAlias
   id: floor_techmaint
   target: FloorTechMaint
+
+- type: tile
+  id: TurretWell
+  name: well
+  sprite: /Textures/Tiles/turret_well.png
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepFloor
+  friction: 0.5
+  thermalConductivity: 0.04
+  heatCapacity: 10000
