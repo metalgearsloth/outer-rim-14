@@ -1,0 +1,15 @@
+﻿- type: outerRimOre
+  id: SteelyBaseOre
+  name: SteelyBase
+  materials:
+    Steel: 1000
+
+- type: outerRimOre
+  parents: [ SteelyBaseOre ]
+  name: native iron
+
+- type: outerRimOre
+  parents: [ SteelyBaseOre ]
+  name: hematite
+  materials:
+    gold: 40

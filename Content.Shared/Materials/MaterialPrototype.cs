@@ -29,6 +29,8 @@ namespace Content.Shared.Materials
         [DataField("stack", customTypeSerializer:typeof(PrototypeIdSerializer<StackPrototype>))]
         public string? StackId { get; } = null;
 
+        [DataField("materialPerStackUnit")] public int MaterialPerStackUnit = 100;
+
         [ViewVariables]
         [DataField("name")]
         public string Name { get; } = "unobtanium";

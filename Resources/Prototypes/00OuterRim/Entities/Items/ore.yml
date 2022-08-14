@@ -1,0 +1,8 @@
+﻿- type: entity
+  id: BaseOre
+  parent: BaseItem
+  name: "Contact the programmer! (BaseOre)"
+  description: "If you are seeing this, someone fucked up."
+  components:
+    - type: Sprite
+      texture: /Textures/OuterRim/rock.png
